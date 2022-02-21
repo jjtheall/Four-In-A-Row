@@ -1,0 +1,14 @@
+<!--@author: jackjtheall -->
+<!--20 Feb 2022 -->
+<!--Four In A Row -->
+
+<resources>
+    <string name="app_name">Four in a Row</string>
+    <string name="game_title">FOUR IN A ROW</string>
+    <string name="instructions">Tap a location on the board to place a piece in that location.
+        The computer will then take its turn. The game is won by placing four consecutive pieces in a
+        row, either horizontally, vertically, or diagonally. Good luck!</string>
+    <string name="name_hint">Enter your name</string>
+    <string name="cpuTurn">Computer Turn</string>
+    <string name="playerTurn">Your Turn</string>
+</resources>

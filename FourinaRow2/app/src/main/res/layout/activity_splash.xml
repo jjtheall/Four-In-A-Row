@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--@author: jackjtheall -->
+<!--20 Feb 2022 -->
+<!--Four In A Row -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".SplashActivity">
+
+    <TextView
+        android:id="@+id/gameTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/game_title"
+        android:layout_gravity="center"
+        android:textSize="50dp"/>
+
+    <TextView
+        android:id="@+id/instructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="18dp"
+        android:padding="16dp"
+        android:text="@string/instructions"/>
+
+    <EditText
+        android:id="@+id/playerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_gravity="center"
+        android:hint="@string/name_hint"
+        android:imeOptions="actionDone"/>
+
+    <Button
+        android:id="@+id/startGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="START!"
+        android:layout_gravity="center"
+        android:onClick="onStartGame"/>
+
+
+</LinearLayout>
